@@ -20,6 +20,9 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "estimatedHours": null,
+      "startedAt": null,
+      "reworkReason": "",
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
     },
@@ -33,9 +36,26 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "estimatedHours": null,
+      "startedAt": null,
+      "reworkReason": "",
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
     }
   ],
-  "batches": []
+  "batches": [],
+  "workstations": [
+    {
+      "id": "ws_demo_1",
+      "name": "一号修补台",
+      "dailyCapacityHours": 8,
+      "createdAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "ws_demo_2",
+      "name": "二号修补台",
+      "dailyCapacityHours": 6,
+      "createdAt": "2026-06-16T00:00:00.000Z"
+    }
+  ]
 }
